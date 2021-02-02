@@ -7,8 +7,6 @@ const errorHandler = require("./middleware/error-handler");
 const authRouter = require("./auth/auth-router");
 const languageRouter = require("./language/language-router");
 const userRouter = require("./user/user-router");
-const { CLIENT_ORIGIN } = require("./config");
-
 const app = express();
 
 app.use(cors());
