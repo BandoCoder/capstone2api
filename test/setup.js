@@ -7,7 +7,7 @@ require("dotenv").config();
 
 process.env.TEST_DATABASE_URL =
   process.env.TEST_DATABASE_URL ||
-  "postgresql://bradford:Simpson66!@localhost/langellium_test";
+  "postgresql://bradford@localhost/langellium_test";
 
 const { expect } = require("chai");
 const supertest = require("supertest");
